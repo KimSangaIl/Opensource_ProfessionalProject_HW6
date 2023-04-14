@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2019038041 김상일"
+        android:gravity="center_horizontal"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:max='100'
+        android:layout_gravity="center"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:max='100'
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="0"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:background="@drawable/textview"/>
+
+</LinearLayout>
